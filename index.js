@@ -32,7 +32,7 @@ app.set('views',path.join(__dirname,'views'));
 app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride('_method'));
 
-app.get('/',(req,res)=>{
+app.get('/depo/',(req,res)=>{
     res.send("hello");
 });
 
